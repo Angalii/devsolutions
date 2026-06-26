@@ -1,0 +1,66 @@
+/* 
+    ESTILOS GENERALES - NO EDITAR
+    - Body y navbar
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:100;
+    background:rgba(15,23,42,.85);
+    backdrop-filter:blur(12px);
+}
+
+.logo{
+    font-size:1.5rem;
+    font-weight:700;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#60a5fa;
+}
+
+.btn-nav{
+    border:none;
+    cursor:pointer;
+    padding:12px 24px;
+    border-radius:30px;
+    color:white;
+    background:linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+.nav-links a:hover, .nav-links a.active{
+    color:#60a5fa;
+    font-weight:600;
+}

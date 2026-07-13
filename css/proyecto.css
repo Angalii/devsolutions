@@ -1,0 +1,219 @@
+/* ===== PROYECTOS ===== */
+
+.projects-hero {
+    padding: 130px 8% 60px;
+    text-align: center;
+}
+
+.projects-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    max-width: 900px;
+    margin: 36px auto 0;
+}
+
+.projects-stats div {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.projects-stats strong {
+    display: block;
+    font-size: 1.4rem;
+    color: #60a5fa;
+}
+
+.projects-stats span {
+    color: #cbd5e1;
+    font-size: 0.95rem;
+}
+
+.projects-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 15px 0;
+    background: linear-gradient(90deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects-description {
+    color: #cbd5e1;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.projects-list-container {
+    padding: 0 8% 100px;
+    display: grid;
+    gap: 28px;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.project-card:nth-child(even) .project-image-wrapper {
+    order: 2;
+}
+
+.project-image-wrapper {
+    overflow: hidden;
+}
+
+.project-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-image-wrapper img {
+    transform: scale(1.05);
+}
+
+.project-content {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-tag {
+    display: inline-block;
+    width: fit-content;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(96, 165, 250, 0.16);
+    color: #60a5fa;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.project-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.project-content p {
+    color: #cbd5e1;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.project-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.project-features li {
+    color: #e2e8f0;
+}
+
+.project-features i {
+    color: #60a5fa;
+    margin-right: 8px;
+}
+
+.testimonials-section {
+    padding: 0 8% 100px;
+}
+
+.testimonials-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonials-header h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 18px;
+    padding: 24px;
+}
+
+.testimonial-card p {
+    color: #e2e8f0;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.testimonial-card h3 {
+    color: #60a5fa;
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+}
+
+.testimonial-card span {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+    .project-card {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card:nth-child(even) .project-image-wrapper {
+        order: 0;
+    }
+
+    .projects-stats,
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-hero {
+        padding: 120px 5% 40px;
+    }
+
+    .projects-title {
+        font-size: 2.1rem;
+    }
+
+    .projects-description {
+        font-size: 0.95rem;
+    }
+
+    .project-content {
+        padding: 22px;
+    }
+
+    .testimonials-section {
+        padding: 0 5% 80px;
+    }
+
+    .testimonials-header h2 {
+        font-size: 1.6rem;
+    }
+}

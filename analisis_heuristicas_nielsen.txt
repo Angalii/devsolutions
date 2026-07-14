@@ -1,0 +1,99 @@
+Análisis de las 10 heurísticas de Nielsen para el sitio DevSolutions
+=================================================================
+
+Objetivo:
+Evaluar la usabilidad del sitio web y relacionar cada heurística con las páginas implementadas: index, contacto, servicios y proyectos.
+
+1. Visibilidad del estado del sistema
+------------------------------------
+- Concepto: El usuario debe poder ver qué está pasando en el sistema en todo momento.
+- Implementación:
+  - En la página de contacto, el formulario muestra mensajes de éxito y error mediante ventanas emergentes.
+  - En el index, los botones de acción y los bloques destacados transmiten claridad sobre las opciones disponibles.
+- Páginas principales: index, contacto.
+
+2. Relación entre sistema y mundo real
+--------------------------------------
+- Concepto: El diseño debe hablar el idioma del usuario y usar conceptos familiares.
+- Implementación:
+  - Se utilizan textos en español, etiquetas claras y secciones fáciles de entender como "Servicios", "Proyectos" y "Contacto".
+  - En la página de servicios, los nombres de los servicios son concretos y se explican con lenguaje cercano al cliente.
+- Páginas principales: index, servicios, proyectos, contacto.
+
+3. Control y libertad del usuario
+--------------------------------
+- Concepto: El usuario debe poder moverse con facilidad y deshacer acciones si es necesario.
+- Implementación:
+  - La navegación está organizada con enlaces claros que permiten moverse entre páginas sin perder contexto.
+  - En la página de contacto, el usuario puede volver a revisar el formulario antes de enviarlo.
+- Páginas principales: index, contacto, servicios, proyectos.
+
+4. Consistencia y estándares
+----------------------------
+- Concepto: El sistema debe seguir convenciones y mantener un estilo uniforme.
+- Implementación:
+  - Se mantiene una identidad visual consistente en todas las páginas: mismo color, tipografía, botones y estructura de navegación.
+  - El navbar y el footer son reutilizados con un estilo coherente.
+- Páginas principales: index, contacto, servicios, proyectos.
+
+5. Prevención de errores
+------------------------
+- Concepto: El diseño debe evitar que el usuario cometa errores.
+- Implementación:
+  - En contacto, los campos obligatorios están señalados y el formulario valida si faltan datos antes de enviar.
+  - Se evita una navegación confusa al presentar mensajes claros y acciones directas.
+- Páginas principales: contacto.
+
+6. Reconocer en lugar de recordar
+---------------------------------
+- Concepto: El sistema debe facilitar la identificación visual de opciones y acciones.
+- Implementación:
+  - El index presenta bloques concretos como "Nuestro equipo", "¿Por qué elegir DevSolutions?" y botones de acción inmediatos.
+  - En proyectos y servicios, las tarjetas y los iconos ayudan al usuario a reconocer rápidamente la información.
+- Páginas principales: index, servicios, proyectos.
+
+7. Flexibilidad y eficiencia de uso
+-----------------------------------
+- Concepto: El sistema debe permitir tanto usuarios nuevos como expertos.
+- Implementación:
+  - La navegación es simple y directa, con accesos rápidos a las principales secciones.
+  - En servicios y proyectos, el contenido está organizado por bloques que facilitan la lectura rápida.
+- Páginas principales: index, servicios, proyectos.
+
+8. Diseño estético y minimalista
+-------------------------------
+- Concepto: La interfaz debe ser visualmente agradable, sin información innecesaria.
+- Implementación:
+  - Se usa un diseño moderno con espacios limpios, colores oscuros, sombras suaves y tarjetas bien organizadas.
+  - El contenido se presenta de forma ordenada para no saturar la vista.
+- Páginas principales: index, servicios, proyectos, contacto.
+
+9. Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
+------------------------------------------------------------------------
+- Concepto: Si ocurre un error, el sistema debe ofrecer ayuda para solucionarlo.
+- Implementación:
+  - En contacto, los mensajes de error explican qué falta y cómo corregirlo.
+  - El formulario guía al usuario con textos de ayuda y estados claros.
+- Páginas principales: contacto.
+
+10. Ayuda y documentación
+-------------------------
+- Concepto: El sistema debe ofrecer ayuda cuando el usuario lo necesite.
+- Implementación:
+  - El sitio incluye textos explicativos en cada sección y llamadas a la acción claras.
+  - La página de contacto funciona como canal de ayuda directa para resolver dudas o solicitar cotización.
+  - En servicios y proyectos, la información está organizada para que el usuario pueda entender rápidamente qué ofrece la empresa.
+- Páginas principales: index, servicios, proyectos, contacto.
+
+Conclusión
+----------
+El sitio muestra un buen cumplimiento de varias heurísticas de usabilidad, especialmente en:
+- Consistencia visual y navegación clara.
+- Diseño limpio y orientado al usuario.
+- Formulario de contacto con validación y retroalimentación.
+
+Las páginas donde más se reflejan estas mejoras son:
+- Index: estructura general, llamadas a la acción y organización visual.
+- Contacto: validación, claridad y feedback.
+- Servicios: organización de información y comprensión del negocio.
+- Proyectos: presentación visual y evidencia de experiencia.
